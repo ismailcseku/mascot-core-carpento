@@ -1,0 +1,619 @@
+@font-face {
+    font-family: "flaticon-carpento";
+    src: url("fonts/flaticon-set-carpento.ttf?0b522d3465efa65725f965e81994ed46") format("truetype"),
+url("fonts/flaticon-set-carpento.woff?0b522d3465efa65725f965e81994ed46") format("woff"),
+url("fonts/flaticon-set-carpento.woff2?0b522d3465efa65725f965e81994ed46") format("woff2"),
+url("fonts/flaticon-set-carpento.eot?0b522d3465efa65725f965e81994ed46#iefix") format("embedded-opentype"),
+url("fonts/flaticon-set-carpento.svg?0b522d3465efa65725f965e81994ed46#flaticon_yacht") format("svg");
+}
+
+i[class^="flaticon-carpento-"]:before, i[class*="flaticon-carpento-"]:before {
+    font-family: flaticon-carpento !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-carpento-logistics:before {
+    content: "\f101";
+}
+.flaticon-carpento-cargo:before {
+    content: "\f102";
+}
+.flaticon-carpento-logistics-1:before {
+    content: "\f103";
+}
+.flaticon-carpento-logistics-2:before {
+    content: "\f104";
+}
+.flaticon-carpento-boxes:before {
+    content: "\f105";
+}
+.flaticon-carpento-import:before {
+    content: "\f106";
+}
+.flaticon-carpento-cargo-ship:before {
+    content: "\f107";
+}
+.flaticon-carpento-logistics-3:before {
+    content: "\f108";
+}
+.flaticon-carpento-logistics-4:before {
+    content: "\f109";
+}
+.flaticon-carpento-delivery:before {
+    content: "\f10a";
+}
+.flaticon-carpento-logistic:before {
+    content: "\f10b";
+}
+.flaticon-carpento-port:before {
+    content: "\f10c";
+}
+.flaticon-carpento-cargo-1:before {
+    content: "\f10d";
+}
+.flaticon-carpento-shipment:before {
+    content: "\f10e";
+}
+.flaticon-carpento-delivery-man:before {
+    content: "\f10f";
+}
+.flaticon-carpento-supply-chain:before {
+    content: "\f110";
+}
+.flaticon-carpento-container:before {
+    content: "\f111";
+}
+.flaticon-carpento-delivery-man-1:before {
+    content: "\f112";
+}
+.flaticon-carpento-box:before {
+    content: "\f113";
+}
+.flaticon-carpento-logistics-5:before {
+    content: "\f114";
+}
+.flaticon-carpento-team:before {
+    content: "\f115";
+}
+.flaticon-carpento-3d-cube:before {
+    content: "\f116";
+}
+.flaticon-carpento-global:before {
+    content: "\f117";
+}
+.flaticon-carpento-customer-service:before {
+    content: "\f118";
+}
+.flaticon-carpento-cargo-boat:before {
+    content: "\f119";
+}
+.flaticon-carpento-logistics-6:before {
+    content: "\f11a";
+}
+.flaticon-carpento-airplane:before {
+    content: "\f11b";
+}
+.flaticon-carpento-parcel:before {
+    content: "\f11c";
+}
+.flaticon-carpento-order:before {
+    content: "\f11d";
+}
+.flaticon-carpento-truck:before {
+    content: "\f11e";
+}
+.flaticon-carpento-container-1:before {
+    content: "\f11f";
+}
+.flaticon-carpento-global-1:before {
+    content: "\f120";
+}
+.flaticon-carpento-global-2:before {
+    content: "\f121";
+}
+.flaticon-carpento-worldwide-shipping:before {
+    content: "\f122";
+}
+.flaticon-carpento-fast-delivery:before {
+    content: "\f123";
+}
+.flaticon-carpento-worldwide-shipping-1:before {
+    content: "\f124";
+}
+.flaticon-carpento-shipment-1:before {
+    content: "\f125";
+}
+.flaticon-carpento-cart:before {
+    content: "\f126";
+}
+.flaticon-carpento-global-shipping:before {
+    content: "\f127";
+}
+.flaticon-carpento-delivery-man-2:before {
+    content: "\f128";
+}
+.flaticon-carpento-cargo-ship-1:before {
+    content: "\f129";
+}
+.flaticon-carpento-forklift:before {
+    content: "\f12a";
+}
+.flaticon-carpento-forklift-1:before {
+    content: "\f12b";
+}
+.flaticon-carpento-delivery-courier:before {
+    content: "\f12c";
+}
+.flaticon-carpento-shipping:before {
+    content: "\f12d";
+}
+.flaticon-carpento-airplane-1:before {
+    content: "\f12e";
+}
+.flaticon-carpento-stock:before {
+    content: "\f12f";
+}
+.flaticon-carpento-air-freight:before {
+    content: "\f130";
+}
+.flaticon-carpento-maintenance:before {
+    content: "\f131";
+}
+.flaticon-carpento-air:before {
+    content: "\f132";
+}
+.flaticon-carpento-logistics-delivery:before {
+    content: "\f133";
+}
+.flaticon-carpento-logistics-delivery-1:before {
+    content: "\f134";
+}
+.flaticon-carpento-clipboard:before {
+    content: "\f135";
+}
+.flaticon-carpento-logistics-delivery-2:before {
+    content: "\f136";
+}
+.flaticon-carpento-logistics-delivery-3:before {
+    content: "\f137";
+}
+.flaticon-carpento-box-1:before {
+    content: "\f138";
+}
+.flaticon-carpento-truck-1:before {
+    content: "\f139";
+}
+.flaticon-carpento-order-1:before {
+    content: "\f13a";
+}
+.flaticon-carpento-search:before {
+    content: "\f13b";
+}
+.flaticon-carpento-delivery-truck:before {
+    content: "\f13c";
+}
+.flaticon-carpento-international-shipping:before {
+    content: "\f13d";
+}
+.flaticon-carpento-24-hours:before {
+    content: "\f13e";
+}
+.flaticon-carpento-logistics-delivery-4:before {
+    content: "\f13f";
+}
+.flaticon-carpento-home-delivery:before {
+    content: "\f140";
+}
+.flaticon-carpento-forklift-2:before {
+    content: "\f141";
+}
+.flaticon-carpento-call-center:before {
+    content: "\f142";
+}
+.flaticon-carpento-crane:before {
+    content: "\f143";
+}
+.flaticon-carpento-headset:before {
+    content: "\f144";
+}
+.flaticon-carpento-shipment-2:before {
+    content: "\f145";
+}
+.flaticon-carpento-clipboard-1:before {
+    content: "\f146";
+}
+.flaticon-carpento-production:before {
+    content: "\f147";
+}
+.flaticon-carpento-export:before {
+    content: "\f148";
+}
+.flaticon-carpento-shopping-bag:before {
+    content: "\f149";
+}
+.flaticon-carpento-qr-code:before {
+    content: "\f14a";
+}
+.flaticon-carpento-air-plane:before {
+    content: "\f14b";
+}
+.flaticon-carpento-cash-on-delivery:before {
+    content: "\f14c";
+}
+.flaticon-carpento-import-1:before {
+    content: "\f14d";
+}
+.flaticon-carpento-24-hours-1:before {
+    content: "\f14e";
+}
+.flaticon-carpento-international-shipping-1:before {
+    content: "\f14f";
+}
+.flaticon-carpento-received:before {
+    content: "\f150";
+}
+.flaticon-carpento-export-1:before {
+    content: "\f151";
+}
+.flaticon-carpento-truck-2:before {
+    content: "\f152";
+}
+.flaticon-carpento-increase:before {
+    content: "\f153";
+}
+.flaticon-carpento-global-shipping-1:before {
+    content: "\f154";
+}
+.flaticon-carpento-crane-1:before {
+    content: "\f155";
+}
+.flaticon-carpento-shield:before {
+    content: "\f156";
+}
+.flaticon-carpento-container-2:before {
+    content: "\f157";
+}
+.flaticon-carpento-delivery-truck-1:before {
+    content: "\f158";
+}
+.flaticon-carpento-fast-delivery-1:before {
+    content: "\f159";
+}
+.flaticon-carpento-shipping-1:before {
+    content: "\f15a";
+}
+.flaticon-carpento-cash-on-delivery-1:before {
+    content: "\f15b";
+}
+.flaticon-carpento-delivery-1:before {
+    content: "\f15c";
+}
+.flaticon-carpento-trolley:before {
+    content: "\f15d";
+}
+.flaticon-carpento-packaging:before {
+    content: "\f15e";
+}
+.flaticon-carpento-setting:before {
+    content: "\f15f";
+}
+.flaticon-carpento-trolley-1:before {
+    content: "\f160";
+}
+.flaticon-carpento-settings:before {
+    content: "\f161";
+}
+.flaticon-carpento-delivery-2:before {
+    content: "\f162";
+}
+.flaticon-carpento-computer-monitor:before {
+    content: "\f163";
+}
+.flaticon-carpento-delivery-truck-2:before {
+    content: "\f164";
+}
+.flaticon-carpento-courier:before {
+    content: "\f165";
+}
+.flaticon-carpento-24-hours-delivery:before {
+    content: "\f166";
+}
+.flaticon-carpento-location-pin:before {
+    content: "\f167";
+}
+.flaticon-carpento-cash:before {
+    content: "\f168";
+}
+.flaticon-carpento-delivery-box:before {
+    content: "\f169";
+}
+.flaticon-carpento-delivery-bike:before {
+    content: "\f16a";
+}
+.flaticon-carpento-partnership:before {
+    content: "\f16b";
+}
+.flaticon-carpento-schedule:before {
+    content: "\f16c";
+}
+.flaticon-carpento-lock:before {
+    content: "\f16d";
+}
+.flaticon-carpento-delivery-box-1:before {
+    content: "\f16e";
+}
+.flaticon-carpento-open-box:before {
+    content: "\f16f";
+}
+.flaticon-carpento-product:before {
+    content: "\f170";
+}
+.flaticon-carpento-packages:before {
+    content: "\f171";
+}
+.flaticon-carpento-delivery-insurance:before {
+    content: "\f172";
+}
+.flaticon-carpento-weight:before {
+    content: "\f173";
+}
+.flaticon-carpento-global-3:before {
+    content: "\f174";
+}
+.flaticon-carpento-distribution-center:before {
+    content: "\f175";
+}
+.flaticon-carpento-weight-1:before {
+    content: "\f176";
+}
+.flaticon-carpento-trolley-2:before {
+    content: "\f177";
+}
+.flaticon-carpento-warehouse:before {
+    content: "\f178";
+}
+.flaticon-carpento-forklift-3:before {
+    content: "\f179";
+}
+.flaticon-carpento-shipping-2:before {
+    content: "\f17a";
+}
+.flaticon-carpento-delivery-service:before {
+    content: "\f17b";
+}
+.flaticon-carpento-24-hours-2:before {
+    content: "\f17c";
+}
+.flaticon-carpento-conveyor:before {
+    content: "\f17d";
+}
+.flaticon-carpento-24-hours-3:before {
+    content: "\f17e";
+}
+.flaticon-carpento-clipboard-2:before {
+    content: "\f17f";
+}
+.flaticon-carpento-airplane-2:before {
+    content: "\f180";
+}
+.flaticon-carpento-delivery-box-2:before {
+    content: "\f181";
+}
+.flaticon-carpento-checklist:before {
+    content: "\f182";
+}
+.flaticon-carpento-crane-2:before {
+    content: "\f183";
+}
+.flaticon-carpento-global-distribution:before {
+    content: "\f184";
+}
+.flaticon-carpento-delivery-3:before {
+    content: "\f185";
+}
+.flaticon-carpento-package:before {
+    content: "\f186";
+}
+.flaticon-carpento-weight-scale:before {
+    content: "\f187";
+}
+.flaticon-carpento-delivery-insurance-1:before {
+    content: "\f188";
+}
+.flaticon-carpento-train:before {
+    content: "\f189";
+}
+.flaticon-carpento-cargo-2:before {
+    content: "\f18a";
+}
+.flaticon-carpento-delivery-4:before {
+    content: "\f18b";
+}
+.flaticon-carpento-delivery-insurance-2:before {
+    content: "\f18c";
+}
+.flaticon-carpento-calendar:before {
+    content: "\f18d";
+}
+.flaticon-carpento-wrench:before {
+    content: "\f18e";
+}
+.flaticon-carpento-call-box:before {
+    content: "\f18f";
+}
+.flaticon-carpento-ship:before {
+    content: "\f190";
+}
+.flaticon-carpento-delivery-time:before {
+    content: "\f191";
+}
+.flaticon-carpento-trolley-3:before {
+    content: "\f192";
+}
+.flaticon-carpento-delivery-truck-3:before {
+    content: "\f193";
+}
+.flaticon-carpento-weight-2:before {
+    content: "\f194";
+}
+.flaticon-carpento-global-distribution-1:before {
+    content: "\f195";
+}
+.flaticon-carpento-tracking:before {
+    content: "\f196";
+}
+.flaticon-carpento-shipping-3:before {
+    content: "\f197";
+}
+.flaticon-carpento-delivery-5:before {
+    content: "\f198";
+}
+.flaticon-carpento-international-shipping-2:before {
+    content: "\f199";
+}
+.flaticon-carpento-delivery-cart:before {
+    content: "\f19a";
+}
+.flaticon-carpento-stock-1:before {
+    content: "\f19b";
+}
+.flaticon-carpento-delivery-service-1:before {
+    content: "\f19c";
+}
+.flaticon-carpento-distribution:before {
+    content: "\f19d";
+}
+.flaticon-carpento-scanner:before {
+    content: "\f19e";
+}
+.flaticon-carpento-delivery-box-3:before {
+    content: "\f19f";
+}
+.flaticon-carpento-settings-1:before {
+    content: "\f1a0";
+}
+.flaticon-carpento-vaccine:before {
+    content: "\f1a1";
+}
+.flaticon-carpento-worldwide-shipping-2:before {
+    content: "\f1a2";
+}
+.flaticon-carpento-delivery-insurance-3:before {
+    content: "\f1a3";
+}
+.flaticon-carpento-global-distribution-2:before {
+    content: "\f1a4";
+}
+.flaticon-carpento-delivery-box-4:before {
+    content: "\f1a5";
+}
+.flaticon-carpento-delivery-box-5:before {
+    content: "\f1a6";
+}
+.flaticon-carpento-air-mail:before {
+    content: "\f1a7";
+}
+.flaticon-carpento-recycle:before {
+    content: "\f1a8";
+}
+.flaticon-carpento-manufacturing:before {
+    content: "\f1a9";
+}
+.flaticon-carpento-smartphone:before {
+    content: "\f1aa";
+}
+.flaticon-carpento-import-2:before {
+    content: "\f1ab";
+}
+.flaticon-carpento-earth:before {
+    content: "\f1ac";
+}
+.flaticon-carpento-scooter:before {
+    content: "\f1ad";
+}
+.flaticon-carpento-delivery-6:before {
+    content: "\f1ae";
+}
+.flaticon-carpento-logistics-delivery-5:before {
+    content: "\f1af";
+}
+.flaticon-carpento-logistics-delivery-6:before {
+    content: "\f1b0";
+}
+.flaticon-carpento-transportation:before {
+    content: "\f1b1";
+}
+.flaticon-carpento-van:before {
+    content: "\f1b2";
+}
+.flaticon-carpento-supply-chain-management:before {
+    content: "\f1b3";
+}
+.flaticon-carpento-delivery-truck-4:before {
+    content: "\f1b4";
+}
+.flaticon-carpento-courier-1:before {
+    content: "\f1b5";
+}
+.flaticon-carpento-delivery-7:before {
+    content: "\f1b6";
+}
+.flaticon-carpento-logistics-7:before {
+    content: "\f1b7";
+}
+.flaticon-carpento-on-time:before {
+    content: "\f1b8";
+}
+.flaticon-carpento-distribution-center-1:before {
+    content: "\f1b9";
+}
+.flaticon-carpento-location:before {
+    content: "\f1ba";
+}
+.flaticon-carpento-air-freight-1:before {
+    content: "\f1bb";
+}
+.flaticon-carpento-logistics-8:before {
+    content: "\f1bc";
+}
+.flaticon-carpento-delivery-man-3:before {
+    content: "\f1bd";
+}
+.flaticon-carpento-logistics-delivery-7:before {
+    content: "\f1be";
+}
+.flaticon-carpento-international:before {
+    content: "\f1bf";
+}
+.flaticon-carpento-international-shipping-3:before {
+    content: "\f1c0";
+}
+.flaticon-carpento-distribution-1:before {
+    content: "\f1c1";
+}
+.flaticon-carpento-distribution-center-2:before {
+    content: "\f1c2";
+}
+.flaticon-carpento-container-3:before {
+    content: "\f1c3";
+}
+.flaticon-carpento-logistics-9:before {
+    content: "\f1c4";
+}
+.flaticon-carpento-delivery-8:before {
+    content: "\f1c5";
+}
+.flaticon-carpento-flow:before {
+    content: "\f1c6";
+}
+.flaticon-carpento-manufacture:before {
+    content: "\f1c7";
+}
+.flaticon-carpento-maps:before {
+    content: "\f1c8";
+}

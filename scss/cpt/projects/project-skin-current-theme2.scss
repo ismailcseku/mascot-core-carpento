@@ -1,0 +1,118 @@
+@import "../../bootstrap-loader";
+@import "project-skin-common";
+
+/* Portfolio Style two */
+.projects-current-theme2 {
+  margin-bottom: 30px;
+  .inner-box {
+    position: relative;
+    overflow: hidden;
+    &:before {
+      @include overlay;
+      top: auto;
+      bottom: 0;
+      pointer-events: none;
+      background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(15, 5, 76, 1) 100%);
+      @include transition(all 300ms ease);
+      z-index: 1;
+      content: "";
+    }
+    &:after {
+      @include overlay;
+      top: auto;
+      bottom: 0;
+      height: 0;
+      pointer-events: none;
+      background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(39, 10, 217, 1) 100%);
+      @include transition(all 300ms ease);
+      content: "";
+    }
+    &:hover {
+      &:before {
+        height: 0;
+      }
+      &:after {
+        height: 100%;
+      }
+      .image {
+        img {
+          transform: scale(1.1);
+        }
+      }
+      .content {
+        .title {
+          transform: none;
+        }
+        .excerpt {
+          opacity: 1;
+          transform: none;
+          transition-delay: 200ms;
+        }
+      }
+      .read-more {
+        transform: none;
+        transition-delay: 250ms;
+      }
+    }
+    .image {
+      position: relative;
+      overflow: hidden;
+      margin-bottom: 0;
+      img {
+        @include transition(all 300ms ease);
+      }
+    }
+    .content {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      padding: 0 60px 20px 35px;
+      @include media-breakpoint-down(xxl) {
+        padding: 0 30px 30px 30px;
+      }
+      .title {
+        position: relative;
+        color: #fff;
+        margin-bottom: 15px;
+        transform: translateY(60px);
+        text-transform: capitalize;
+        a:hover,
+        a:focus {
+          color: #fff;
+        }
+        @include transition(all 300ms ease);
+        z-index: 1;
+        @include media-breakpoint-down(md) {
+          margin-bottom: 50px;
+        }
+        @include media-breakpoint-down(sm) {
+          margin-bottom: 15px;
+        }
+      }
+      .excerpt {
+        position: relative;
+        color: #fff;
+        margin-bottom: 0;
+        opacity: 0;
+        transform: translateY(81px);
+        @include transition(all 300ms ease);
+        z-index: 1;
+      }
+    }
+    .read-more {
+      position: absolute;
+      top: 0;
+      right: 0;
+      display: block;
+      width: 60px;
+      height: 60px;
+      line-height: 60px;
+      color: #fff;
+      background: var(--gradient-2);
+      text-align: center;
+      transform: translateX(60px);
+      z-index: 1;
+    }
+  }
+}

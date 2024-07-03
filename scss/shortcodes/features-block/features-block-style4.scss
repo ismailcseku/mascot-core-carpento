@@ -1,0 +1,68 @@
+@import "../../bootstrap-loader";
+@import "features-common";
+.features-block-style4 {
+  margin-bottom: 40px;
+  .inner-box {
+    position: relative;
+    padding-left: 90px;
+    padding-bottom: 32px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #27323a;
+    @include media-breakpoint-down(sm) {
+      padding-left: 0;
+      text-align: center;
+    }
+    &:hover {
+      .icon {
+        transform: scaleX(-1);
+      }
+    }
+    .icon {
+      position: absolute;
+      top: 10px;
+      left: 0;
+      width: 51px;
+      height: 51px;
+      line-height: 51px;
+      font-size: 26px;
+      margin-right: 35px;
+      border-radius: 3px;
+      color: #fff;
+      background-color: var(--theme-color1);
+      text-align: center;
+      @include transition(all 300ms ease);
+      @include media-breakpoint-down(sm) {
+        position: relative;
+        display: block;
+        margin: 0 auto 20px;
+        text-align: center;
+      }
+      &:after {
+        content: "";
+        position: absolute;
+        top: -4px;
+        left: -4px;
+        right: -4px;
+        bottom: -4px;
+        border-radius: 3px;
+        border: 1px dashed var(--theme-color1);
+      }
+    }
+    .content {
+      .features-title {
+        margin-top: 0;
+        margin-bottom: 0;
+        color: #fff;
+        margin-bottom: 10px;
+        font-size: 20px;
+        letter-spacing: -0.01em;
+      }
+      .features-details {
+        color: #fff;
+      }
+    }
+  }
+}
+.features-item:last-child .features-block-style4 .inner-box {
+  border-bottom: none;
+}

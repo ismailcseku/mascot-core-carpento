@@ -1,0 +1,95 @@
+.tm-sc-features .icon {
+  display: inline-block;
+}
+.tm-sc-features .icon,
+.tm-sc-features .features-title,
+.tm-sc-features .features-details {
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+.feature-side-line {
+  position: relative;
+}
+.feature-side-line .icon-box-wrapper:after {
+  content: "";
+  background: #333;
+  width: 2px;
+  position: absolute;
+  left: 25px;
+  top: 60px;
+  bottom: -12px;
+}
+@media (max-width: 575.98px) {
+  .feature-side-line .icon-box-wrapper:after {
+    display: none;
+  }
+}
+
+.features-block-style4 {
+  margin-bottom: 40px;
+}
+.features-block-style4 .inner-box {
+  position: relative;
+  padding-left: 90px;
+  padding-bottom: 32px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #27323a;
+}
+@media (max-width: 575.98px) {
+  .features-block-style4 .inner-box {
+    padding-left: 0;
+    text-align: center;
+  }
+}
+.features-block-style4 .inner-box:hover .icon {
+  transform: scaleX(-1);
+}
+.features-block-style4 .inner-box .icon {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  width: 51px;
+  height: 51px;
+  line-height: 51px;
+  font-size: 26px;
+  margin-right: 35px;
+  border-radius: 3px;
+  color: #fff;
+  background-color: var(--theme-color1);
+  text-align: center;
+  transition: all 300ms ease;
+}
+@media (max-width: 575.98px) {
+  .features-block-style4 .inner-box .icon {
+    position: relative;
+    display: block;
+    margin: 0 auto 20px;
+    text-align: center;
+  }
+}
+.features-block-style4 .inner-box .icon:after {
+  content: "";
+  position: absolute;
+  top: -4px;
+  left: -4px;
+  right: -4px;
+  bottom: -4px;
+  border-radius: 3px;
+  border: 1px dashed var(--theme-color1);
+}
+.features-block-style4 .inner-box .content .features-title {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #fff;
+  margin-bottom: 10px;
+  font-size: 20px;
+  letter-spacing: -0.01em;
+}
+.features-block-style4 .inner-box .content .features-details {
+  color: #fff;
+}
+
+.features-item:last-child .features-block-style4 .inner-box {
+  border-bottom: none;
+}

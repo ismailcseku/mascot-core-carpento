@@ -1,0 +1,87 @@
+@import "../../bootstrap-loader";
+@import "service-common";
+.service-block-style3 {
+  margin-bottom: 45px;
+  .inner-box {
+    position: relative;
+    padding: 0 22px 45px;
+    margin-top: 40px;
+    background-color: #f3f4f7;
+    @include media-breakpoint-down(md) {
+      text-align: center;
+    }
+    &:hover {
+      .icon-box {
+        .service-icon {
+          i {
+            transform: scaleX(-1);
+            background-color: var(--theme-color1);
+            color: #fff;
+          }
+        }
+      }
+    }
+    .icon-box {
+      margin-bottom: 30px;
+      &:before {
+        content: "";
+        position: absolute;
+        top: -15px;
+        left: -7px;
+        width: 93px;
+        height: 58px;
+        background-image: url(../../../../assets/images/current-theme/icon-border.png);
+        @include media-breakpoint-down(md) {
+          right: -6px;
+          top: -16px;
+          margin: 0 auto;
+        }
+      }
+      .service-icon {
+        i {
+          position: relative;
+          margin-top: -43px;
+          display: inline-block;
+          width: 80px;
+          height: 80px;
+          font-size: 46px;
+          line-height: 80px;
+          color: var(--theme-color1);
+          box-shadow: 0 0 76px rgba(0, 0, 0, 0.06);
+          background-color: #fff;
+          text-align: center;
+          @include transition(all 300ms ease);
+        }
+      }
+    }
+    .service-count {
+      position: absolute;
+      top: 25px;
+      right: 10px;
+      font-size: 60px;
+      font-weight: 700;
+      color: transparent;
+      -webkit-text-stroke-width: 1px;
+      -webkit-text-stroke-color: #d3d3d6;
+    }
+    .service-title {
+      position: relative;
+      margin-top: 0;
+      margin-bottom: 40px;
+      &::before {
+        content: "";
+        position: absolute;
+        bottom: -23px;
+        left: 0;
+        width: 81px;
+        height: 6px;
+        background-color: var(--theme-color1);
+        transform: skewX(-25deg);
+        @include media-breakpoint-down(md) {
+          right: 0;
+          margin: 0 auto;
+        }
+      }
+    }
+  }
+}

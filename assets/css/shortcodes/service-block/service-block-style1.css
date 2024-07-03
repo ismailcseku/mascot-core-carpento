@@ -1,0 +1,164 @@
+@import url("../../../flaticon-set-carpento/style.css");
+.tm-sc-service .icon {
+  display: inline-block;
+}
+.tm-sc-service .icon,
+.tm-sc-service .feature-title,
+.tm-sc-service .feature-details {
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+.service-block-style1 {
+  position: relative;
+  margin-bottom: 30px;
+  z-index: 1;
+}
+.service-block-style1 .inner-box {
+  position: relative;
+  padding-bottom: 100px;
+  transition: all 300ms ease;
+}
+.service-block-style1 .inner-box:hover .image-box .image img {
+  transform: scale(1.1);
+}
+.service-block-style1 .inner-box:hover .image-box .read-more {
+  color: #fff;
+  background: var(--theme-color2);
+}
+.service-block-style1 .inner-box:hover .image-box .read-more:before {
+  height: 100%;
+}
+.service-block-style1 .inner-box:hover .content-box .inner {
+  height: auto;
+}
+.service-block-style1 .inner-box .image-box .image {
+  position: relative;
+  margin-bottom: 0px;
+  margin-right: 42px;
+  overflow: hidden;
+}
+.service-block-style1 .inner-box .image-box .image img {
+  position: relative;
+  transition: all 300ms ease;
+}
+.service-block-style1 .inner-box .image-box .read-more {
+  position: absolute;
+  top: 0;
+  left: 100%;
+  width: max-content;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 11px 45px;
+  display: inline-flex;
+  color: var(--theme-color2);
+  background: #f3f4f7;
+  transform: rotate(90deg);
+  transform-origin: left top;
+  text-transform: uppercase;
+  transition: all 300ms ease;
+  z-index: 3;
+}
+@media (max-width: 767.98px) {
+  .service-block-style1 .inner-box .image-box .read-more {
+    padding: 11px 114px;
+  }
+}
+@media (max-width: 575.98px) {
+  .service-block-style1 .inner-box .image-box .read-more {
+    padding: 11px 32px;
+  }
+}
+.service-block-style1 .inner-box .image-box .read-more:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  left: auto;
+  right: 0;
+  height: 0;
+  background-color: var(--theme-color2);
+  transition: all 300ms ease;
+  z-index: -1;
+}
+.service-block-style1 .inner-box .image-box .read-more:hover {
+  color: var(--theme-color1);
+}
+.service-block-style1 .inner-box .image-box .read-more i {
+  font-size: 14px;
+  margin-left: 10px;
+  transform: rotate(45deg);
+  color: var(--theme-color1);
+}
+.service-block-style1 .inner-box .content-box {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 22px 28px 22px;
+  background-color: #fff;
+  border: 1px solid #eee9e3;
+}
+.service-block-style1 .inner-box .content-box::before {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: -15px;
+  width: 44px;
+  height: 64px;
+  background-image: url(../../../../assets/images/current-theme/icon-arrow.png);
+  transform: translate(-33px, -35px);
+}
+.service-block-style1 .inner-box .content-box .info-box {
+  position: relative;
+  padding-left: 105px;
+}
+.service-block-style1 .inner-box .content-box .icon {
+  position: absolute;
+  left: 0;
+  bottom: 8px;
+  height: 80px;
+  width: 80px;
+  line-height: 80px;
+  font-size: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  background-color: var(--theme-color1);
+  transition: all 300ms ease;
+  z-index: 2;
+}
+.service-block-style1 .inner-box .content-box .icon::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  width: 93px;
+  height: 58px;
+  background-image: url(../../../../assets/images/current-theme/icon-border.png);
+}
+.service-block-style1 .inner-box .content-box .service-title {
+  position: relative;
+  margin-top: 0;
+  margin-bottom: 0;
+  z-index: 2;
+}
+.service-block-style1 .inner-box .content-box .service-title:hover {
+  color: var(--theme-color1);
+}
+.service-block-style1 .inner-box .content-box .inner {
+  position: relative;
+  display: none;
+  overflow: hidden;
+  padding-right: 46px;
+  margin-top: 10px;
+}
+.service-block-style1 .inner-box .content-box .inner .service-details {
+  position: relative;
+  margin-bottom: 0;
+  transition: all 300ms ease;
+  z-index: 2;
+}

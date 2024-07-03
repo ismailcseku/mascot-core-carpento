@@ -1,0 +1,114 @@
+@import "../../bootstrap-loader";
+
+.pricing-plan-skin-style1 {
+  &.pricing-active {
+    .pricing-plan-inner {
+      padding: 84px 50px 85px 50px;
+      margin: -22px 0 0;
+      background-color: var(--theme-color2);
+      @include media-breakpoint-down(md) {
+        padding: 62px 50px 62px 50px;
+        margin: 0;
+      }
+      @include media-breakpoint-down(lg) {
+        padding: 62px 50px 62px 50px;
+        margin: 0;
+      }
+      &:before {
+        border: 1px solid #273745;
+      }
+      .content-box {
+        .price-normal {
+          color: #fff;
+        }
+      }
+      .features-list {
+        li {
+          border-bottom: 1px solid #253543;
+          color: #fff;
+        }
+      }
+    }
+  }
+  .pricing-plan-inner {
+    background-color: #fff;
+    padding: 62px 50px 62px 50px;
+    position: relative;
+    z-index: 1;
+    @include transition(all 300ms ease);
+    @include media-breakpoint-down(lg) {
+      margin-bottom: 30px;
+    }
+    &:before {
+      border: 1px solid #eed0a5;
+      content: "";
+      height: calc(100% - 46px);
+      left: 17px;
+      top: 23px;
+      position: absolute;
+      width: calc(100% - 34px);
+      z-index: -1;
+    }
+    &:hover {
+      background-color: var(--theme-color2);
+      &:before {
+        border: 1px solid #273745;
+      }
+      .content-box {
+        .price-normal {
+          color: #fff;
+        }
+      }
+      .features-list {
+        li {
+          border-bottom: 1px solid #253543;
+          color: #fff;
+        }
+      }
+    }
+    .content-box {
+      text-align: center;
+      margin-bottom: 74px;
+      .pricing-plan-subtitle {
+        color: var(--theme-color1);
+        font-size: 14px;
+        font-weight: 600;
+        letter-spacing: 2.8px;
+        text-transform: uppercase;
+      }
+      .price-normal {
+        font-size: 60px;
+        font-weight: 400;
+        margin-bottom: 38px;
+        color: #000000;
+        line-height: 1;
+        font-family: var(--font-current-theme2);
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        .pricing-plan-separator,
+        .pricing-plan-postfix {
+          font-size: 20px;
+          margin-left: 5px;
+        }
+      }
+
+      .pricing-btn {
+        padding: 20px 38px;
+        border: none;
+        .btn-pricing-plan-title {
+          color: #fff;
+        }
+      }
+    }
+    .features-list {
+      li {
+        border-bottom: 1px solid var(--theme-color3);
+        font-size: 16px;
+        padding: 0 0 11px;
+        margin: 0 0 8px;
+        list-style: none;
+      }
+    }
+  }
+}

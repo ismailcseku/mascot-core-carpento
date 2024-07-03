@@ -1,0 +1,51 @@
+.counter-block-two {
+  position: relative;
+  margin-bottom: 0;
+}
+.counter-block-two .inner-box {
+  position: relative;
+  margin-bottom: 0;
+  transition: all 300ms ease;
+}
+.counter-block-two .inner-box:hover .counter {
+  color: var(--theme-color1);
+}
+.counter-block-two .inner-box:hover .title:after {
+  width: 100%;
+}
+.counter-block-two .content-box {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.counter-block-two .counter {
+  color: #e1e1e1;
+  margin-top: 0;
+  margin-bottom: 0;
+  display: inline-block;
+}
+.counter-block-two .counter .animate-number,
+.counter-block-two .counter .counter-postfix {
+  font-family: var(--font-current-theme2);
+  position: relative;
+  font-size: 200px;
+  line-height: 1;
+  font-weight: 400;
+  display: inline-block;
+  transition: all 300ms ease;
+}
+.counter-block-two .title-wrapper {
+  text-align: left;
+  position: relative;
+  top: 30px;
+  right: 60px;
+}
+.counter-block-two .title-wrapper .title {
+  display: inline-block;
+  font-size: 24px;
+  position: relative;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: var(--font-current-theme1);
+  transition: all 300ms ease;
+}
