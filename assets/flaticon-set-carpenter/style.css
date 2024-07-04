@@ -1,0 +1,140 @@
+@font-face {
+    font-family: "flaticon-carpenter";
+    src: url("fonts/flaticon-set-carpenter.ttf?0b522d3465efa65725f965e81994ed46") format("truetype"),
+url("fonts/flaticon-set-carpenter.woff?0b522d3465efa65725f965e81994ed46") format("woff"),
+url("fonts/flaticon-set-carpenter.woff2?0b522d3465efa65725f965e81994ed46") format("woff2"),
+url("fonts/flaticon-set-carpenter.eot?0b522d3465efa65725f965e81994ed46#iefix") format("embedded-opentype"),
+url("fonts/flaticon-set-carpenter.svg?0b522d3465efa65725f965e81994ed46#flaticon_yacht") format("svg");
+}
+
+i[class^="flaticon-set-"]:before, i[class*="flaticon-set-"]:before {
+    font-family: flaticon-carpenter !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-set-carpenter:before {
+    content: "\f101";
+}
+.flaticon-set-carpenter-1:before {
+    content: "\f102";
+}
+.flaticon-set-hammer:before {
+    content: "\f103";
+}
+.flaticon-set-hand-saw:before {
+    content: "\f104";
+}
+.flaticon-set-carpenter-2:before {
+    content: "\f105";
+}
+.flaticon-set-carpentry:before {
+    content: "\f106";
+}
+.flaticon-set-carpenter-3:before {
+    content: "\f107";
+}
+.flaticon-set-carpenter-4:before {
+    content: "\f108";
+}
+.flaticon-set-pencil:before {
+    content: "\f109";
+}
+.flaticon-set-hand-saw-1:before {
+    content: "\f10a";
+}
+.flaticon-set-carpenter-5:before {
+    content: "\f10b";
+}
+.flaticon-set-circular:before {
+    content: "\f10c";
+}
+.flaticon-set-hammers:before {
+    content: "\f10d";
+}
+.flaticon-set-circular-saw:before {
+    content: "\f10e";
+}
+.flaticon-set-toolbox:before {
+    content: "\f10f";
+}
+.flaticon-set-construction-and-tools:before {
+    content: "\f110";
+}
+.flaticon-set-sawing:before {
+    content: "\f111";
+}
+.flaticon-set-saw:before {
+    content: "\f112";
+}
+.flaticon-set-hammer-1:before {
+    content: "\f113";
+}
+.flaticon-set-drill:before {
+    content: "\f114";
+}
+.flaticon-set-chisel:before {
+    content: "\f115";
+}
+.flaticon-set-carpenter-6:before {
+    content: "\f116";
+}
+.flaticon-set-carpenter-7:before {
+    content: "\f117";
+}
+.flaticon-set-carpenter-8:before {
+    content: "\f118";
+}
+.flaticon-set-measure-tape:before {
+    content: "\f119";
+}
+.flaticon-set-toolbox-1:before {
+    content: "\f11a";
+}
+.flaticon-set-nails:before {
+    content: "\f11b";
+}
+.flaticon-set-electric:before {
+    content: "\f11c";
+}
+.flaticon-set-circular-saw-1:before {
+    content: "\f11d";
+}
+.flaticon-set-construction-and-tools-1:before {
+    content: "\f11e";
+}
+.flaticon-set-toolbox-2:before {
+    content: "\f11f";
+}
+.flaticon-set-axe:before {
+    content: "\f120";
+}
+.flaticon-set-tool:before {
+    content: "\f121";
+}
+.flaticon-set-tree:before {
+    content: "\f122";
+}
+.flaticon-set-tree-1:before {
+    content: "\f123";
+}
+.flaticon-set-circular-saw-2:before {
+    content: "\f124";
+}
+.flaticon-set-repair:before {
+    content: "\f125";
+}
+.flaticon-set-wood-work:before {
+    content: "\f126";
+}
+.flaticon-set-paint-bucket:before {
+    content: "\f127";
+}
+.flaticon-set-saw-1:before {
+    content: "\f128";
+}
+

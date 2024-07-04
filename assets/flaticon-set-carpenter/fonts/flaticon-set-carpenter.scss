@@ -1,0 +1,185 @@
+$flaticon_carpenter-font: "flaticon_carpenter";
+
+@font-face {
+    font-family: $flaticon_carpenter-font;
+    src: url("./flaticon_carpenter.woff2?d3ac3162da249c8433e535130182c48d") format("woff2"),
+url("./flaticon_carpenter.woff?d3ac3162da249c8433e535130182c48d") format("woff"),
+url("./flaticon_carpenter.eot?d3ac3162da249c8433e535130182c48d#iefix") format("embedded-opentype"),
+url("./flaticon_carpenter.ttf?d3ac3162da249c8433e535130182c48d") format("truetype"),
+url("./flaticon_carpenter.svg?d3ac3162da249c8433e535130182c48d#flaticon_carpenter") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon_carpenter !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon_carpenter-map: (
+    "carpenter": "\f101",
+    "carpenter-1": "\f102",
+    "hammer": "\f103",
+    "hand-saw": "\f104",
+    "carpenter-2": "\f105",
+    "carpentry": "\f106",
+    "carpenter-3": "\f107",
+    "carpenter-4": "\f108",
+    "pencil": "\f109",
+    "hand-saw-1": "\f10a",
+    "carpenter-5": "\f10b",
+    "circular": "\f10c",
+    "hammers": "\f10d",
+    "circular-saw": "\f10e",
+    "toolbox": "\f10f",
+    "construction-and-tools": "\f110",
+    "sawing": "\f111",
+    "saw": "\f112",
+    "hammer-1": "\f113",
+    "drill": "\f114",
+    "chisel": "\f115",
+    "carpenter-6": "\f116",
+    "carpenter-7": "\f117",
+    "carpenter-8": "\f118",
+    "measure-tape": "\f119",
+    "toolbox-1": "\f11a",
+    "nails": "\f11b",
+    "electric": "\f11c",
+    "circular-saw-1": "\f11d",
+    "construction-and-tools-1": "\f11e",
+    "toolbox-2": "\f11f",
+    "axe": "\f120",
+    "tool": "\f121",
+    "tree": "\f122",
+    "tree-1": "\f123",
+    "circular-saw-2": "\f124",
+    "repair": "\f125",
+    "wood-work": "\f126",
+    "paint-bucket": "\f127",
+    "saw-1": "\f128",
+);
+
+.flaticon-carpenter:before {
+    content: map-get($flaticon_carpenter-map, "carpenter");
+}
+.flaticon-carpenter-1:before {
+    content: map-get($flaticon_carpenter-map, "carpenter-1");
+}
+.flaticon-hammer:before {
+    content: map-get($flaticon_carpenter-map, "hammer");
+}
+.flaticon-hand-saw:before {
+    content: map-get($flaticon_carpenter-map, "hand-saw");
+}
+.flaticon-carpenter-2:before {
+    content: map-get($flaticon_carpenter-map, "carpenter-2");
+}
+.flaticon-carpentry:before {
+    content: map-get($flaticon_carpenter-map, "carpentry");
+}
+.flaticon-carpenter-3:before {
+    content: map-get($flaticon_carpenter-map, "carpenter-3");
+}
+.flaticon-carpenter-4:before {
+    content: map-get($flaticon_carpenter-map, "carpenter-4");
+}
+.flaticon-pencil:before {
+    content: map-get($flaticon_carpenter-map, "pencil");
+}
+.flaticon-hand-saw-1:before {
+    content: map-get($flaticon_carpenter-map, "hand-saw-1");
+}
+.flaticon-carpenter-5:before {
+    content: map-get($flaticon_carpenter-map, "carpenter-5");
+}
+.flaticon-circular:before {
+    content: map-get($flaticon_carpenter-map, "circular");
+}
+.flaticon-hammers:before {
+    content: map-get($flaticon_carpenter-map, "hammers");
+}
+.flaticon-circular-saw:before {
+    content: map-get($flaticon_carpenter-map, "circular-saw");
+}
+.flaticon-toolbox:before {
+    content: map-get($flaticon_carpenter-map, "toolbox");
+}
+.flaticon-construction-and-tools:before {
+    content: map-get($flaticon_carpenter-map, "construction-and-tools");
+}
+.flaticon-sawing:before {
+    content: map-get($flaticon_carpenter-map, "sawing");
+}
+.flaticon-saw:before {
+    content: map-get($flaticon_carpenter-map, "saw");
+}
+.flaticon-hammer-1:before {
+    content: map-get($flaticon_carpenter-map, "hammer-1");
+}
+.flaticon-drill:before {
+    content: map-get($flaticon_carpenter-map, "drill");
+}
+.flaticon-chisel:before {
+    content: map-get($flaticon_carpenter-map, "chisel");
+}
+.flaticon-carpenter-6:before {
+    content: map-get($flaticon_carpenter-map, "carpenter-6");
+}
+.flaticon-carpenter-7:before {
+    content: map-get($flaticon_carpenter-map, "carpenter-7");
+}
+.flaticon-carpenter-8:before {
+    content: map-get($flaticon_carpenter-map, "carpenter-8");
+}
+.flaticon-measure-tape:before {
+    content: map-get($flaticon_carpenter-map, "measure-tape");
+}
+.flaticon-toolbox-1:before {
+    content: map-get($flaticon_carpenter-map, "toolbox-1");
+}
+.flaticon-nails:before {
+    content: map-get($flaticon_carpenter-map, "nails");
+}
+.flaticon-electric:before {
+    content: map-get($flaticon_carpenter-map, "electric");
+}
+.flaticon-circular-saw-1:before {
+    content: map-get($flaticon_carpenter-map, "circular-saw-1");
+}
+.flaticon-construction-and-tools-1:before {
+    content: map-get($flaticon_carpenter-map, "construction-and-tools-1");
+}
+.flaticon-toolbox-2:before {
+    content: map-get($flaticon_carpenter-map, "toolbox-2");
+}
+.flaticon-axe:before {
+    content: map-get($flaticon_carpenter-map, "axe");
+}
+.flaticon-tool:before {
+    content: map-get($flaticon_carpenter-map, "tool");
+}
+.flaticon-tree:before {
+    content: map-get($flaticon_carpenter-map, "tree");
+}
+.flaticon-tree-1:before {
+    content: map-get($flaticon_carpenter-map, "tree-1");
+}
+.flaticon-circular-saw-2:before {
+    content: map-get($flaticon_carpenter-map, "circular-saw-2");
+}
+.flaticon-repair:before {
+    content: map-get($flaticon_carpenter-map, "repair");
+}
+.flaticon-wood-work:before {
+    content: map-get($flaticon_carpenter-map, "wood-work");
+}
+.flaticon-paint-bucket:before {
+    content: map-get($flaticon_carpenter-map, "paint-bucket");
+}
+.flaticon-saw-1:before {
+    content: map-get($flaticon_carpenter-map, "saw-1");
+}

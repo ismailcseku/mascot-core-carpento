@@ -212,18 +212,18 @@ final class Mascot_Core_Carpento_Elementor {
 	 */
     public function add_elementor_custom_icons($settings)
     {
-		$settings['flaticon-set-carpento'] = [
-			'name'          => 'flaticon-set-carpento',
-			'label'         => 'Carpento Carpento Set',
+		$settings['flaticon-set-carpenter'] = [
+			'name'          => 'flaticon-set-carpenter',
+			'label'         => 'Carpenter Set',
 			'url'           => '',
 			'enqueue'       => array(
-				MASCOT_CORE_CARPENTO_ASSETS_URI . '/flaticon-set-carpento/style.css',
+				MASCOT_CORE_CARPENTO_ASSETS_URI . '/flaticon-set-carpenter/style.css',
 			),
 			'prefix'        => '',
 			'displayPrefix' => '',
-			'labelIcon'     => 'flaticon-carpento-ship',
+			'labelIcon'     => 'flaticon-set-carpenter',
 			'ver'           => '1.0',
-			'fetchJson'     => MASCOT_CORE_CARPENTO_ASSETS_URI . '/flaticon-set-carpento/icon-list.js',
+			'fetchJson'     => MASCOT_CORE_CARPENTO_ASSETS_URI . '/flaticon-set-carpenter/icon-list.js',
 			'native'        => 1,
 		];
 		$settings['mascot-flaticon-common'] = [
