@@ -3,7 +3,7 @@
   display: flex;
   .tm-swiper-arrow {
     cursor: pointer;
-    background-color: #fff;
+    background-color: var(--theme-color-white);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,7 +16,7 @@
     box-shadow: 0 1px 72px 0 rgba(0, 0, 0, 0.14);
 
     i {
-      color: #111;
+      color: var(--theme-color1);
       font-size: 16px;
       -webkit-transition: all 0.3s ease;
       -khtml-transition: all 0.3s ease;
@@ -32,9 +32,9 @@
     }
 
     &:hover, &:active {
-      background-color: #111;
+      background-color: var(--theme-color1);
       i {
-        color: #fff;
+        color: var(--text-color-bg-theme-color1);
       }
     }
 
