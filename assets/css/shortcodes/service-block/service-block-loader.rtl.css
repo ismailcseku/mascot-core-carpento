@@ -532,6 +532,108 @@
   transition: all 300ms ease;
 }
 
+.service-block-style4 .inner-box {
+  position: relative;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+@media (max-width: 991.98px) {
+  .service-block-style4 .inner-box {
+    margin-bottom: 20px;
+  }
+}
+.service-block-style4 .inner-box:hover .icon-box {
+  opacity: 0;
+}
+.service-block-style4 .inner-box:hover .icon-box .service-icon {
+  transform: rotate(360deg);
+}
+.service-block-style4 .inner-box:hover .image:before {
+  height: 100%;
+}
+.service-block-style4 .inner-box:hover .image img {
+  transform: scale(1.15);
+}
+.service-block-style4 .inner-box:hover .content-box {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0);
+}
+.service-block-style4 .inner-box .image {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+.service-block-style4 .inner-box .image:before {
+  content: "";
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  height: 0;
+  width: 100%;
+  opacity: 0.85;
+  background-color: var(--theme-color1);
+  transition: all 300ms ease;
+  z-index: 1;
+}
+.service-block-style4 .inner-box .image img {
+  width: 100%;
+  transform: scale(1);
+  transition: all 300ms ease;
+}
+.service-block-style4 .inner-box .icon-box {
+  background-color: var(--theme-color1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 128px;
+  height: 108px;
+  opacity: 1;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 17% 100%);
+  z-index: 1;
+  transition: all 300ms ease;
+}
+.service-block-style4 .inner-box .icon-box .service-icon {
+  color: var(--theme-color-white);
+  font-size: 60px;
+  margin-right: 20px;
+  transition: all 300ms ease;
+}
+.service-block-style4 .inner-box .content-box {
+  padding: 10px;
+  position: absolute;
+  visibility: hidden;
+  opacity: 0;
+  transform: translateY(20px);
+  z-index: 1;
+  transition: all 300ms ease;
+}
+.service-block-style4 .inner-box .content-box .service-title {
+  color: var(--theme-color-white);
+  margin-bottom: 0;
+  text-align: center;
+}
+.service-block-style4 .inner-box .content-box .service-details {
+  color: var(--theme-color-white);
+}
+
+.tm-sc-service .icon {
+  display: inline-block;
+}
+.tm-sc-service .icon,
+.tm-sc-service .feature-title,
+.tm-sc-service .feature-details {
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
 .service-block-cursor-floating-info {
   position: relative;
   margin-bottom: 30px;

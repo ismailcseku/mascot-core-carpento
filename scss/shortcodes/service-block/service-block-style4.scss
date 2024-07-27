@@ -1,0 +1,97 @@
+@import "../../bootstrap-loader";
+@import "service-common";
+.service-block-style4 {
+  .inner-box {
+    position: relative;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    @include media-breakpoint-down(lg) {
+      margin-bottom: 20px;
+    }
+    &:hover {
+      .icon-box {
+        opacity: 0;
+        .service-icon {
+          transform: rotate(-360deg);
+        }
+      }
+      .image {
+        &:before {
+          height: 100%;
+        }
+        img {
+          transform: scale(1.15);
+        }
+      }
+      .content-box {
+        visibility: visible;
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    .image {
+      position: relative;
+      overflow: hidden;
+      width: 100%;
+      &:before {
+        content: "";
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        height: 0;
+        width: 100%;
+        opacity: 0.85;
+        background-color: var(--theme-color1);
+        @include transition(all 300ms ease);
+        z-index: 1;
+      }
+      img {
+        width: 100%;
+        transform: scale(1);
+        @include transition(all 300ms ease);
+      }
+    }
+    .icon-box {
+      background-color: var(--theme-color1);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      width: 128px;
+      height: 108px;
+      opacity: 1;
+      clip-path: polygon(0 0, 100% 0, 100% 100%, 17% 100%);
+      z-index: 1;
+      @include transition(all 300ms ease);
+      .service-icon {
+        color: var(--theme-color-white);
+        font-size: 60px;
+        margin-left: 20px;
+        @include transition(all 300ms ease);
+      }
+    }
+    .content-box {
+      padding: 10px;
+      position: absolute;
+      visibility: hidden;
+      opacity: 0;
+      transform: translateY(20px);
+      z-index: 1;
+      @include transition(all 300ms ease);
+      .service-title {
+        color: var(--theme-color-white);
+        margin-bottom: 0;
+        text-align: center;
+      }
+      .service-details {
+        color: var(--theme-color-white);
+      }
+    }
+  }
+}
