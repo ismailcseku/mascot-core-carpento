@@ -634,6 +634,184 @@
   transition: all 300ms ease;
 }
 
+@media (max-width: 991.98px) {
+  .service-block-style5 {
+    margin-bottom: 60px;
+  }
+}
+@media (max-width: 575.98px) {
+  .service-block-style5 {
+    margin-bottom: 20px;
+  }
+}
+.service-block-style5 .inner-box {
+  position: relative;
+}
+.service-block-style5 .inner-box:hover .image img {
+  transform: scale(1.1);
+}
+.service-block-style5 .inner-box:hover .image:before {
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: all 500ms linear;
+}
+.service-block-style5 .inner-box:hover .image:after {
+  top: 0;
+  bottom: 0;
+  opacity: 0;
+  transition: all 600ms linear;
+}
+.service-block-style5 .inner-box .image {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 0;
+  transition: all 300ms ease;
+}
+.service-block-style5 .inner-box .image:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  right: 51%;
+  bottom: 0;
+  opacity: 1;
+  pointer-events: none;
+  background: rgba(255, 255, 255, 0.3);
+  transition: all 500ms linear;
+  z-index: 1;
+}
+.service-block-style5 .inner-box .image:after {
+  background: rgba(255, 255, 255, 0.3);
+  bottom: 50%;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  opacity: 1;
+  pointer-events: none;
+  transition: all 600ms linear;
+}
+.service-block-style5 .inner-box .image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: all 300ms ease;
+}
+.service-block-style5 .inner-box .content-box {
+  padding: 20px 30px;
+  background-color: var(--theme-color-white);
+  z-index: 1;
+  width: 510px;
+  height: 184px;
+  margin-top: -88px;
+  position: relative;
+}
+@media (max-width: 991.98px) {
+  .service-block-style5 .inner-box .content-box {
+    margin-top: 0;
+    height: auto;
+    width: auto;
+  }
+}
+@media (max-width: 575.98px) {
+  .service-block-style5 .inner-box .content-box {
+    padding: 15px;
+  }
+}
+.service-block-style5 .inner-box .content-box .service-subtitle {
+  text-transform: uppercase;
+  font-weight: 400;
+}
+.service-block-style5 .inner-box .content-box .service-title {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+@media (max-width: 575.98px) {
+  .service-block-style5 .inner-box .content-box .service-title {
+    font-size: 20px;
+  }
+}
+@media (max-width: 575.98px) {
+  .service-block-style5 .inner-box .content-box .service-title br {
+    display: none;
+  }
+}
+.service-block-style5 .inner-box .content-box .service-title:hover {
+  color: var(--theme-color1);
+}
+.service-block-style5 .inner-box .content-box .read-more {
+  color: #444444;
+  font-family: var(--title-font);
+  font-size: 14px;
+  font-weight: 600;
+}
+.service-block-style5 .inner-box .content-box .read-more:hover {
+  color: var(--theme-color1);
+}
+.service-block-style5 .inner-box .content-box .read-more:hover .icon {
+  color: var(--theme-color1);
+  left: -18px;
+  opacity: 0;
+}
+.service-block-style5 .inner-box .content-box .read-more .icon {
+  position: relative;
+  left: 8px;
+  transition: all 300ms ease;
+}
+.service-block-style5.style-one {
+  margin-bottom: 120px;
+}
+@media (max-width: 991.98px) {
+  .service-block-style5.style-one {
+    margin-bottom: 60px;
+  }
+}
+@media (max-width: 575.98px) {
+  .service-block-style5.style-one {
+    margin-bottom: 20px;
+  }
+}
+.service-block-style5.style-one .content-box {
+  width: 510px;
+  height: 184px;
+  margin-top: -88px;
+  position: relative;
+}
+@media (max-width: 991.98px) {
+  .service-block-style5.style-one .content-box {
+    margin-top: 0;
+    height: auto;
+    width: auto;
+  }
+}
+.service-block-style5.style-two .content-box {
+  width: 445px;
+  height: 184px;
+  position: absolute;
+  right: 0;
+  bottom: -86px;
+}
+@media (max-width: 991.98px) {
+  .service-block-style5.style-two .content-box {
+    width: auto;
+    height: auto;
+    bottom: 0;
+    position: relative;
+  }
+}
+
+.tm-sc-service .icon {
+  display: inline-block;
+}
+.tm-sc-service .icon,
+.tm-sc-service .feature-title,
+.tm-sc-service .feature-details {
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
 .service-block-cursor-floating-info {
   position: relative;
   margin-bottom: 30px;

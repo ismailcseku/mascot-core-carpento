@@ -8,108 +8,170 @@
   transition: all 300ms ease;
 }
 
-:root {
-  --service-current-style5-bg-background-hover-image: url("../../../images/current-theme/icon-lines-6.png");
+@media (max-width: 991.98px) {
+  .service-block-style5 {
+    margin-bottom: 60px;
+  }
 }
-
-.service-block-style5 {
-  position: relative;
-  margin-bottom: 30px;
-  z-index: 1;
+@media (max-width: 575.98px) {
+  .service-block-style5 {
+    margin-bottom: 20px;
+  }
 }
 .service-block-style5 .inner-box {
   position: relative;
-  overflow: hidden;
-  height: 100%;
-  padding: 35px 35px 30px;
-  background-color: #ffffff;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-image: var(--service-current-style5-bg-background-image);
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.07);
-  transition: all 300ms linear;
 }
-.service-block-style5 .inner-box:after {
-  counter-increment: my-sec-counter;
-  content: counter(my-sec-counter, decimal-leading-zero) " ";
+.service-block-style5 .inner-box:hover .image img {
+  transform: scale(1.1);
+}
+.service-block-style5 .inner-box:hover .image:before {
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: all 500ms linear;
+}
+.service-block-style5 .inner-box:hover .image:after {
+  top: 0;
+  bottom: 0;
+  opacity: 0;
+  transition: all 600ms linear;
+}
+.service-block-style5 .inner-box .image {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 0;
+  transition: all 300ms ease;
+}
+.service-block-style5 .inner-box .image:before {
+  content: "";
   position: absolute;
-  line-height: 1;
-  right: 20px;
-  top: 50px;
-  font-size: 48px;
-  color: #f4f5f9;
-  transition: all 500ms ease;
+  top: 0;
+  left: 50%;
+  right: 51%;
+  bottom: 0;
+  opacity: 1;
+  pointer-events: none;
+  background: rgba(255, 255, 255, 0.3);
+  transition: all 500ms linear;
   z-index: 1;
 }
-.service-block-style5 .inner-box:before {
-  position: absolute;
-  left: 0;
-  top: 0;
-  height: 100%;
-  width: 100%;
-  background-repeat: no-repeat;
-  background-image: var(--service-current-style5-bg-background-hover-image);
-  background-color: #ffffff;
+.service-block-style5 .inner-box .image:after {
+  background: rgba(255, 255, 255, 0.3);
+  bottom: 50%;
   content: "";
-  transition: all 300ms linear;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  opacity: 1;
+  pointer-events: none;
+  transition: all 600ms linear;
 }
-.service-block-style5 .inner-box:hover {
-  box-shadow: none;
+.service-block-style5 .inner-box .image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: all 300ms ease;
 }
-.service-block-style5 .inner-box:hover:after {
-  opacity: 0.08;
-}
-.service-block-style5 .inner-box:hover:before {
-  height: 0;
-}
-.service-block-style5 .inner-box:hover .service-icon {
-  color: #fff;
-  background-color: rgba(255, 255, 255, 0.1);
-  border-radius: 50%;
-}
-.service-block-style5 .inner-box:hover .service-details {
-  color: #fff;
-}
-.service-block-style5 .inner-box:hover .btn-view-details a {
-  color: #fff;
-}
-.service-block-style5 .inner-box:hover .btn-view-details a:after {
-  color: #fff;
-}
-.service-block-style5 .inner-box:hover .service-title,
-.service-block-style5 .inner-box:hover .service-title a {
-  color: #ffffff;
-}
-.service-block-style5 .icon-box {
+.service-block-style5 .inner-box .content-box {
+  padding: 20px 30px;
+  background-color: var(--theme-color-white);
+  z-index: 1;
+  width: 510px;
+  height: 184px;
+  margin-top: -88px;
   position: relative;
-  margin-bottom: 25px;
 }
-.service-block-style5 .service-icon {
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100px;
-  width: 100px;
-  background-color: var(--theme-color1);
-  color: var(--text-color-bg-theme-color1);
-  transition: all 200ms linear;
+@media (max-width: 991.98px) {
+  .service-block-style5 .inner-box .content-box {
+    margin-top: 0;
+    height: auto;
+    width: auto;
+  }
 }
-.service-block-style5 .service-icon i {
-  font-size: 58px;
+@media (max-width: 575.98px) {
+  .service-block-style5 .inner-box .content-box {
+    padding: 15px;
+  }
 }
-.service-block-style5 .service-title {
+.service-block-style5 .inner-box .content-box .service-subtitle {
+  text-transform: uppercase;
+  font-weight: 400;
+}
+.service-block-style5 .inner-box .content-box .service-title {
+  margin-top: 5px;
   margin-bottom: 10px;
+}
+@media (max-width: 575.98px) {
+  .service-block-style5 .inner-box .content-box .service-title {
+    font-size: 20px;
+  }
+}
+@media (max-width: 575.98px) {
+  .service-block-style5 .inner-box .content-box .service-title br {
+    display: none;
+  }
+}
+.service-block-style5 .inner-box .content-box .service-title:hover {
+  color: var(--theme-color1);
+}
+.service-block-style5 .inner-box .content-box .read-more {
+  color: #444444;
+  font-family: var(--title-font);
+  font-size: 14px;
+  font-weight: 600;
+}
+.service-block-style5 .inner-box .content-box .read-more:hover {
+  color: var(--theme-color1);
+}
+.service-block-style5 .inner-box .content-box .read-more:hover .icon {
+  color: var(--theme-color1);
+  left: -18px;
+  opacity: 0;
+}
+.service-block-style5 .inner-box .content-box .read-more .icon {
+  position: relative;
+  left: 8px;
+  transition: all 300ms ease;
+}
+.service-block-style5.style-one {
+  margin-bottom: 120px;
+}
+@media (max-width: 991.98px) {
+  .service-block-style5.style-one {
+    margin-bottom: 60px;
+  }
+}
+@media (max-width: 575.98px) {
+  .service-block-style5.style-one {
+    margin-bottom: 20px;
+  }
+}
+.service-block-style5.style-one .content-box {
+  width: 510px;
+  height: 184px;
+  margin-top: -88px;
   position: relative;
 }
-.service-block-style5 .service-title:hover {
-  color: var(--theme-color2);
+@media (max-width: 991.98px) {
+  .service-block-style5.style-one .content-box {
+    margin-top: 0;
+    height: auto;
+    width: auto;
+  }
 }
-.service-block-style5 .service-details {
-  position: relative;
+.service-block-style5.style-two .content-box {
+  width: 445px;
+  height: 184px;
+  position: absolute;
+  right: 0;
+  bottom: -86px;
 }
-.service-block-style5 .btn-view-details {
-  margin-top: 10px;
-  position: relative;
+@media (max-width: 991.98px) {
+  .service-block-style5.style-two .content-box {
+    width: auto;
+    height: auto;
+    bottom: 0;
+    position: relative;
+  }
 }
