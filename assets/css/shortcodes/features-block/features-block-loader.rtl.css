@@ -307,6 +307,7 @@
 }
 .features-block-style2 .inner-box .features-title {
   position: relative;
+  margin-top: 0;
   margin-bottom: 8px;
   z-index: 3;
 }
@@ -532,4 +533,83 @@
 
 .features-item:last-child .features-block-style4 .inner-box {
   border-bottom: none;
+}
+
+.tm-sc-features .icon {
+  display: inline-block;
+}
+.tm-sc-features .icon,
+.tm-sc-features .features-title,
+.tm-sc-features .features-details {
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+.feature-side-line {
+  position: relative;
+}
+.feature-side-line .icon-box-wrapper:after {
+  content: "";
+  background: #333;
+  width: 2px;
+  position: absolute;
+  right: 25px;
+  top: 60px;
+  bottom: -12px;
+}
+@media (max-width: 575.98px) {
+  .feature-side-line .icon-box-wrapper:after {
+    display: none;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .features-block-style5 .inner-box {
+    margin-bottom: 20px;
+  }
+}
+.features-block-style5 .inner-box:hover .image img {
+  transform: scale(1.15);
+}
+.features-block-style5 .inner-box:hover .image-box .inner .icon {
+  transform: rotate(360deg);
+}
+.features-block-style5 .inner-box .image-box .inner {
+  position: relative;
+}
+.features-block-style5 .inner-box .image-box .inner .image {
+  margin-bottom: 0;
+  overflow: hidden;
+}
+.features-block-style5 .inner-box .image-box .inner .image img {
+  width: 100%;
+  transition: all 300ms ease;
+}
+.features-block-style5 .inner-box .image-box .inner .icon {
+  background-color: #fff;
+  border-radius: 50%;
+  color: #000;
+  font-size: 22px;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  text-align: center;
+  transform: rotate(40deg);
+  transition: all 300ms ease;
+}
+.features-block-style5 .inner-box .content-box .inner {
+  margin-top: 26px;
+}
+.features-block-style5 .inner-box .content-box .inner .features-title {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+.features-block-style5 .inner-box .content-box .inner .features-title:hover {
+  color: var(--theme-color1);
+}
+.features-block-style5 .inner-box .content-box .inner .features-details {
+  line-height: 26px;
 }

@@ -103,6 +103,7 @@
 }
 .features-block-style2 .inner-box .features-title {
   position: relative;
+  margin-top: 0;
   margin-bottom: 8px;
   z-index: 3;
 }

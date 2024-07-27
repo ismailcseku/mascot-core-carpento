@@ -105,6 +105,7 @@ class TM_Elementor_FeaturesBlock extends Widget_Base {
 		$this->add_skin( new Skins\Skin_Style2( $this ) );
 		$this->add_skin( new Skins\Skin_Style3( $this ) );
 		$this->add_skin( new Skins\Skin_Style4( $this ) );
+		$this->add_skin( new Skins\Skin_Style5( $this ) );
 	}
 
 	/**
