@@ -8,7 +8,7 @@ $count = $service_item['count'];
 $target = ( $feature_link && $feature_link['is_external'] ) ? ' target="_blank"' : '';
 $url = ( $feature_link && $feature_link['url'] ) ? $feature_link['url'] : '';
 ?>
-<div class="service-block-style1">
+<div class="service-item service-block-style1">
   <div class="inner-box">
     <div class="image-box">
       <div class="image">

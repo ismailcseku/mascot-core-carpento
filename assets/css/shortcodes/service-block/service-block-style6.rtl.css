@@ -46,7 +46,7 @@
 .service-block-style6 .inner-box:hover:before {
   height: 0;
 }
-.service-block-style6 .inner-box:hover .icon {
+.service-block-style6 .inner-box:hover .service-icon {
   color: var(--theme-color1);
   background-color: var(--theme-color-light);
   transition-delay: 150ms;
@@ -58,17 +58,17 @@
 .service-block-style6 .inner-box:hover .service-details {
   color: var(--theme-color-white);
 }
-.service-block-style6 .icon {
+.service-block-style6 .service-icon {
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
   height: 100px;
   width: 100px;
-  font-size: 64px;
+  font-size: 60px;
   color: var(--theme-color-white);
   font-weight: 900;
-  line-height: 64px;
+  line-height: 60px;
   background-color: var(--theme-color1);
   border-radius: 50%;
   margin: 0 auto 15px;
@@ -83,8 +83,5 @@
 }
 .service-block-style6 .service-details {
   position: relative;
-  line-height: 24px;
-  color: #808287;
-  font-weight: 500;
   transition: all 200ms linear;
 }

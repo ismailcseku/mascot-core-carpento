@@ -8,7 +8,7 @@ $count = $service_item['count'];
 $target = ( $feature_link && $feature_link['is_external'] ) ? ' target="_blank"' : '';
 $url = ( $feature_link && $feature_link['url'] ) ? $feature_link['url'] : '';
 ?>
-<div class="service-block-style6">
+<div class="service-item service-block-style6">
 	<div class="inner-box ">
 		<div class="icon">
 			<?php mascot_core_carpento_get_shortcode_template_part( 'icon-type', $service_item['icon_type'], 'service-block/tpl', $service_item, false );?>

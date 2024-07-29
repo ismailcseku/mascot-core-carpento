@@ -9,7 +9,7 @@ $target = ( $feature_link && $feature_link['is_external'] ) ? ' target="_blank"'
 $url = ( $feature_link && $feature_link['url'] ) ? $feature_link['url'] : '';
 ?>
 
-<div class="service-block-style4">
+<div class="service-item service-block-style4">
 	<div class="inner-box">
 		<div class="image">
 			<?php mascot_core_carpento_get_shortcode_template_part( 'part-featured-image', null, 'service-block/tpl', $service_item, false );?>
