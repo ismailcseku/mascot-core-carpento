@@ -34,7 +34,22 @@
   box-shadow: 0 0px 43px rgba(0, 0, 0, 0.02);
   background-color: #f3f4f7;
   text-align: center;
+  position: absolute;
+  top: -50px;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+  display: inline-block;
+  width: 125px;
+  height: 125px;
+  line-height: 125px;
+  font-size: 46px;
+  color: var(--theme-color-white);
+  box-shadow: 0 0px 43px rgba(0, 0, 0, 0.02);
+  background-color: var(--theme-color1);
+  text-align: center;
   transition: all 300ms ease;
+  border-radius: 50%;
 }
 .counter-block .inner-box .count-box {
   position: relative;
