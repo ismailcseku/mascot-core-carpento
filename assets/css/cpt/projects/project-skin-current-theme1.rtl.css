@@ -25,19 +25,6 @@
   position: relative;
   overflow: hidden;
 }
-.projects-current-theme1 .inner-box:before {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  width: 150px;
-  height: 155px;
-  clip-path: polygon(0 0, 0% 100%, 100% 100%);
-  background-color: var(--theme-color1);
-  transition: all 300ms ease;
-  transform: translateX(150px);
-  z-index: 3;
-}
 .projects-current-theme1 .inner-box .overlay-1 {
   position: absolute;
   bottom: 0;
@@ -99,7 +86,7 @@
   width: 100%;
   height: 0;
   pointer-events: none;
-  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, #1d1d29 80%);
+  background: linear-gradient(transparent, #c69453 80%, #c69453 80%);
   transition: all 300ms ease;
   z-index: 2;
 }
