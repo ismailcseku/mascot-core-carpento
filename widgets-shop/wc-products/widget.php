@@ -17,7 +17,9 @@ class TM_Elementor_WC_Products extends Widget_Base {
 	public function __construct($data = [], $args = null) {
 		parent::__construct($data, $args);
 		$direction_suffix = is_rtl() ? '.rtl' : '';
-
+		if( \Elementor\Plugin::$instance->preview->is_preview_mode() ) {
+            wp_enqueue_style( 'carpento-woo-shop');
+		}
 		wp_register_script( 'tm-countdown-script', MASCOT_CORE_CARPENTO_ASSETS_URI . '/js/widgets/countdown.js' );
 
 		wp_register_style( 'tm-wc-products', MASCOT_CORE_CARPENTO_ASSETS_URI . '/css/woo/wc-products/wc-products-loader' . $direction_suffix . '.css' );
@@ -473,11 +475,12 @@ class TM_Elementor_WC_Products extends Widget_Base {
 	protected function render() {
 		$settings = $this->get_settings_for_display();
 		$class_instance =  '';
+        wp_enqueue_style( 'carpento-woo-shop');
 
 		$settings['holder_id'] = mascot_core_carpento_get_isotope_holder_ID('wc-product');
 		return $this->wc_render_output( $class_instance, $settings );
 	}
-	
+
 
 	public function wc_render_output( $class_instance, $settings ) {
         global $woocommerce;
@@ -548,10 +551,10 @@ class TM_Elementor_WC_Products extends Widget_Base {
             );
         }
 
-        
+
         $the_query = new \WP_Query( $args );
 		$settings['the_query'] = $the_query;
-		
+
 
 		//button classes
 		$settings['btn_classes'] = mascot_core_carpento_prepare_button_classes_from_params( $settings );
