@@ -8,6 +8,9 @@
   margin: -22px 0 0;
   background-color: var(--theme-color2);
 }
+.pricing-plan-skin-style1.pricing-active .pricing-plan-inner:hover {
+  margin: -22px 0 0;
+}
 .pricing-plan-skin-style1.pricing-active .pricing-plan-inner .title-box {
   border-bottom: 1px solid rgba(168, 168, 168, 0.1803921569);
 }
