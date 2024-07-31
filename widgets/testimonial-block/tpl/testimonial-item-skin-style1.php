@@ -19,6 +19,8 @@ $testimonial_item['title_tag'] = $title_tag;
       <?php mascot_core_carpento_get_shortcode_template_part( 'part-name', null, 'testimonial-block/tpl', $testimonial_item, false );?>
       <?php mascot_core_carpento_get_shortcode_template_part( 'part-position', null, 'testimonial-block/tpl', $testimonial_item, false );?>
     </div>
-    <div class="icon-quote-2"></div>
+		<div class="icon-quote-2">
+			<?php \Elementor\Icons_Manager::render_icon( $settings['icon'], [ 'aria-hidden' => 'true' , 'class' => 'icon' ] ); ?>
+		</div>
   </div>
 </div>
