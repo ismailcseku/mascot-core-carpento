@@ -11,7 +11,6 @@ $testimonial_item['title_tag'] = $title_tag;
       <div class="thumb">
         <?php mascot_core_carpento_get_shortcode_template_part( 'part-thumb', null, 'testimonial-block/tpl', $testimonial_item, false );?>
       </div>
-      <div class="icon-quote"></div>
     </div>
     <div class="content-box">
       <?php mascot_core_carpento_get_shortcode_template_part( 'part-title', null, 'testimonial-block/tpl', $testimonial_item, false );?>
