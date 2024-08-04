@@ -2,6 +2,7 @@
 <?php
 $features_item['title_tag'] = $title_tag;
 $features_item['subtitle_tag'] = $subtitle_tag;
+$count = $features_item['count'];
 $first_letter_title = substr($features_item['title'], 0, 1);
 ?>
 
@@ -11,7 +12,7 @@ $first_letter_title = substr($features_item['title'], 0, 1);
       <div class="icon">
         <?php mascot_core_carpento_get_shortcode_template_part( 'icon-type', $features_item['icon_type'], 'features-block/tpl', $features_item, false );?>
       </div>
-      <div class="number">01</div>
+      <div class="number"><?php echo $count;?></div>
     </div>
     <div class="content">
 		  <?php mascot_core_carpento_get_shortcode_template_part( 'part-title', null, 'features-block/tpl', $features_item, false );?>
