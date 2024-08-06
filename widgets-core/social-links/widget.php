@@ -548,20 +548,20 @@ class TM_Elementor_Social_Links extends Widget_Base {
 		//classes
 		$classes = array();
 
-		if( $settings['text_alignment'] ) {
+		if( isset($settings['text_alignment']) && !empty($settings['text_alignment']) ) {
 			$classes[] = $settings['text_alignment'];
 		}
-		if( $settings['icon_style'] ) {
+		if( isset($settings['icon_style']) && !empty($settings['icon_style']) ) {
 			$classes[] = $settings['icon_style'];
 		}
 
-		if( $settings['icon_size'] ) {
+		if( isset($settings['icon_size']) && !empty($settings['icon_size']) ) {
 			$classes[] = $settings['icon_size'];
 		}
-		if( $settings['icon_outlined'] ) {
+		if( isset($settings['icon_outlined']) && !empty($settings['icon_outlined']) ) {
 			$classes[] = 'links-outlined';
 		}
-		if( $settings['icon_color'] ) {
+		if( isset($settings['icon_color']) && !empty($settings['icon_color']) ) {
 			$classes[] = $settings['icon_color'];
 		}
 

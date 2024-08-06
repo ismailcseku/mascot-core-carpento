@@ -459,7 +459,7 @@ class TM_Elementor_TextEditorAdvanced extends Widget_Base {
 
 				$item_classes = array();
 				$item_classes[] = 'each-item elementor-repeater-item-' . $item['_id'];
-				if($item['content_theme_colored']) {
+				if( isset($item['content_theme_colored']) && $item['content_theme_colored'] ) {
 					$item_classes[] = 'text-theme-colored' . $item['content_theme_colored'];
 				}
 				//Produce HTML version by using the parameters (filename, variation, folder name, parameters, shortcode_ob_start)
