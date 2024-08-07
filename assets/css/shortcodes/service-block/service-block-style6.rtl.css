@@ -78,8 +78,9 @@
   margin-bottom: 10px;
   position: relative;
 }
-.service-block-style6 .service-title:hover {
-  color: var(--theme-color1);
+.service-block-style6 .service-title a:hover,
+.service-block-style6 .service-title a:focus {
+  color: #fff;
 }
 .service-block-style6 .service-details {
   position: relative;
